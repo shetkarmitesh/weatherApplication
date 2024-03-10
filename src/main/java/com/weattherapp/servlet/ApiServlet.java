@@ -35,7 +35,7 @@ public class ApiServlet extends HttpServlet {
 		//		city name from user
 		String cityName= request.getParameter("cityName");
 //		api key fromo openweathermap
-		String apiKey="dad25cb79869288e5d8b34c87f743e72";
+		String apiKey="api_key_from_weatherApi";
 //		api url for openweathermap api request
 		String apiUrl= "https://api.openweathermap.org/data/2.5/weather?q="+cityName+"&appid="+apiKey;
 		
